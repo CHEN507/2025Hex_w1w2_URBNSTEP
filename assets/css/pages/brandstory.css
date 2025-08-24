@@ -1,7 +1,6 @@
 /* 個別頁面 Pages */
 /* 品牌故事頁面才會用到的 Brand Story Page */
 .brand-story-hero {
-  background-image: url(/assets/images/hero.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
