@@ -1,0 +1,31 @@
+.card-to-select {
+  background-color: transparent;
+  border-radius: 0;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--neutral-600);
+}
+.card-to-select img {
+  width: 64px;
+  margin-bottom: 4px;
+}
+.card-to-select:hover img {
+  opacity: 0.8;
+}
+
+.card-to-select.selected {
+  color: var(--neutral-900);
+}
+
+.card-to-select.selected img {
+  border: 1px solid var(--neutral-900);
+}
+
+.card-to-select:disabled {
+  opacity: 0.4;
+}

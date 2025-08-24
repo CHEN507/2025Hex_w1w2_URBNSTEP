@@ -1,0 +1,33 @@
+/* 頁碼 */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+  color: var(--neutral-900);
+}
+.pagination li {
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+}
+.pagination li:hover {
+  background-color: var(--neutral-100);
+}
+.pagination li.current-page {
+  background-color: var(--primary-300);
+  font-weight: 500;
+}
+
+.pagination li:first-child {
+  margin-right: 12px;
+}
+.pagination li:nth-last-child(2) {
+  margin-right: 12px;
+}
+.pagination li:last-child {
+  margin-right: 0px;
+}

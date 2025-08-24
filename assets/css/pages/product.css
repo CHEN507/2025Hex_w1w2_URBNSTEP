@@ -1,0 +1,19 @@
+.product-image-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -4px;
+  margin-right: -4px;
+}
+.product-image-col-6 {
+  padding-left: 4px;
+  padding-right: 4px;
+  width: 50%;
+}
+
+.cta-btn-row {
+  display: flex;
+  gap: 8px;
+}
+.cta-btn {
+  width: 50%;
+}

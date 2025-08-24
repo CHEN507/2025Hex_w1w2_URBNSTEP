@@ -1,0 +1,81 @@
+/* 元件 Component */
+/* 按鈕 */
+.btn {
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btn-dark {
+  background-color: var(--neutral-900);
+  color: var(--neutral-white);
+}
+.btn-dark:hover {
+  background-color: var(--neutral-700);
+}
+.btn-dark:focus {
+  background-color: var(--neutral-700);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--neutral-700) 10%, transparent);
+}
+.btn-dark:disabled {
+  background-color: color-mix(in srgb, var(--primary-300) 40%, transparent);
+}
+
+.btn-primary {
+  background-color: var(--primary-300);
+  color: var(--neutral-900);
+}
+.btn-primary:hover {
+  color: var(--primary-500);
+}
+.btn-primary:focus {
+  color: var(--primary-500);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--primary-300) 40%, transparent);
+}
+.btn-primary:disabled {
+  background-color: color-mix(in srgb, var(--primary-300) 40%, transparent);
+  color: color-mix(in srgb, var(--neutral-900) 40%, transparent);
+}
+
+.btn-outlined {
+  color: var(--neutral-900);
+  border: 1px solid var(--neutral-900);
+}
+.btn-outlined:hover {
+  color: var(--neutral-white);
+  background-color: var(--neutral-900);
+}
+.btn-outlined:focus {
+  color: var(--neutral-white);
+  background-color: var(--neutral-900);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--neutral-900) 10%, transparent);
+}
+.btn-outlined:disabled {
+  color: color-mix(in srgb, var(--neutral-900) 40%, transparent);
+  border: 1px solid color-mix(in srgb, var(--neutral-900) 40%, transparent);
+}
+
+.btn-to-select {
+  background-color: var(--neutral-white);
+  color: var(--neutral-900);
+  border: 1px solid var(--neutral-300);
+}
+
+.btn-to-select:hover {
+  border: 1px solid var(--neutral-600);
+}
+
+.btn-to-select.selected {
+  border: 1px solid var(--neutral-900);
+}
+
+.btn-to-select:disabled {
+  color: color-mix(in srgb, var(--neutral-900) 40%, transparent);
+  border: 1px solid color-mix(in srgb, var(--neutral-300) 40%, transparent);
+}
